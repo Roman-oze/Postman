@@ -7,12 +7,44 @@
 	"item": [
 		{
 			"name": "Products",
-			"item": [],
+			"item": [
+				{
+					"name": "Get All the Products",
+					"id": "47764434-c608c5db-3e2d-4e65-9712-e7e880a7edfe",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "47764434-2fb2bb6a-bab2-43e0-a12f-53e8d1b525fa"
 		},
 		{
 			"name": "Users",
-			"item": [],
+			"item": [
+				{
+					"name": "Get All of Users",
+					"id": "47764434-75a80dec-fad7-4f19-88aa-697a33e765c8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": []
+				}
+			],
 			"id": "47764434-8ef5d85c-479e-4649-900f-26c57850d0a8"
 		},
 		{
@@ -24,36 +56,6 @@
 			"name": "Features",
 			"item": [],
 			"id": "47764434-57464a91-f38f-4fc2-a65b-2c8913b1462f"
-		},
-		{
-			"name": "Get All the Products",
-			"id": "47764434-c608c5db-3e2d-4e65-9712-e7e880a7edfe",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": ""
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Get All of Users",
-			"id": "47764434-75a80dec-fad7-4f19-88aa-697a33e765c8",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": ""
-				}
-			},
-			"response": []
 		}
 	]
 }
